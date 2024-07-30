@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <!--CSS-BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--FONT-GG-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- MAIN-CSS -->
+       <!--owlcarrousel-->
+    <link rel="stylesheet" href="view/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="view/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="view/css/index.css">
+     <link rel="stylesheet" href="css/giohang.css">
+     <link rel="stylesheet" href="view/css/sanpham.css">
+     <link rel="stylesheet" href="view/css/thanhtoan.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+          <nav class="Nikenavbar navbar navbar-expand-lg container">
+            <a class="navbar-brand n" href="#">NIKE</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="fa-solid fa-bars text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">New & Featured</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Men</a>
+                    <a class="dropdown-item" href="#">Women</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Kids</a>
+                  </div>
+                </li> --> <!-- thẻ con -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kids</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sale</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">SNKRS</a>
+                  </li>
+              </ul>
+              <!--SEARCH-->
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+                <!--ACCOUTN-->
+                  <ul class="ul_account">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link" href="#" id="navbar_ac" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user-circle " ></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbar_ac">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#dangnhap" href="#">Đăng Nhập</a> <!--data-tagrget cũ exampleModal-->
+                        <a class="dropdown-item" data-toggle="modal" data-target="#dangky" href="#">Đăng Ký</a>
+                        <a class="dropdown-item" href="#">Thông Tin tài Khoảng</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Đăng Xuất</a>
+                      </div>
+                    </li>
+                  </ul>
+                <!--GIỎ HÀNG-->
+                <div class="giohang">
+                  <a href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                </div>
+          </nav>
+        </div>
+    </header>
+    <!--TIÊU ĐỀ-->
+    <section class="tieude">
+        <h5>New Styles on Sale: Up to 40% Off</h5>
+        <p>Shop All Our New Markdowns</p>
+    </section>
+    <!--CAROUSEL-->
+    <div id="carouselExampleIndicators" class="carousel slide hoang_carousel container-fluid" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/banner1.png" class="d-block w-100" alt="banner1">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner2.jpg" class="d-block w-100" alt="banner2">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner3.jpg" class="d-block w-100" alt="banner3">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!--YOUR SUPPORT SYSTEM-->
+      <section class="your_support_system container-fluid section">
+        <a>Nike InfinityRN 4</a>
+        <h2>YOUR SUPPORT SYSTEM</h2>
+        <p>All-new ReactX foam, stretchy Flyknit and a wider midsole offer a system of support that moves you smoothly through every stride.</p>
+        <button class="btn_shop"><a href="./sanpham.html">Shop</a></button>
+      </section>
+      <!--Trending-->
+      <section class="trending container-fluid">
+        <div class="content_trending">
+            <h3>Trending</h3>
+        </div>
+        <div class="img_trending">
+            <img src="./img/trending.jpg" alt="trending">
+        </div>
+      </section>
+      <!--20 YEARS-->
+       <section class="your_support_system container-fluid section">
+        <a>EK Umoja Collection</a>
+        <h2>20 YEARS IN THE MAKING</h2>
+        <p>A collection for every runner built on the ethos of Eliud.</p>
+        <button class="btn_shop"><a href="./sanpham.html">Shop</a></button>
+      </section>
+      <!--The Latest-->
+      <section class="the_latest container-fluid">
+        <div class="content_latest">
+            <h3>The Latest</h3>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="img1" src="./img/donike.jpg" alt="donike">
+                <div class="div-1">
+                    <p>Shop the Retro Edit</p>
+                    <button><a href="#">Shop the Look</a></button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="img2" src="./img/giaynike.jpg" alt="giaynike">
+                <div class="div-2">
+                    <p>On Trend Retro Sneakers</p>
+                    <button><a href="#">Shop Sneakers</a></button>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--the latest2-->
+      <section class="the_latest2 container-fluid">
+        <div class="content_latest2">
+          <h3>The Latest</h3>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="the_latest2_video embed-responsive-item" autoplay loop>
+            <source src="./video/nike.mp4" type="video/mp4">
+            <!-- Trình duyệt của bạn không hỗ trợ video. -->
+          </video>
+        </div>
+      </section>
+      <!--NIKE TECH-->
+      <section class="your_support_system container-fluid nike_tech section">
+        <h2>NIKE TECH</h2>
+        <p>Engineered to the Exact Specifications of Championship Athletes.</p>
+        <button class="btn_shop btn-outline-secondary btn-niketech1"><a href="./sanpham.html">Suit Up</a></button>
+        <button class="btn_shop  btn-outline-secondary btn-niketech2"><a href="#">Shop Lifestyle</a></button> <!--Gioi thieu ve shop-->
+      </section>
+      <!--Featured-->
+      <section class="featured container-fluid">
+        <div class="content_featured">
+            <h3>Featured</h3>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="img1" src="./img/setnike.jpg" alt="setnike">
+                <div class="div-1">
+                    <p>Complete The Look</p>
+                    <button><a href="./sanpham.html">Shop</a></button>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img class="img2" src="./img/giaynike2.webp" alt="giaynike2">
+                <div class="div-2">
+                    <p>Step Up Your Style</p>
+                    <button><a href="./sanpham.html">Shop</a></button>
+                </div>
+            </div>
+        </div>
+      </section>
+        <!--Gear Up-->
+        <section class="trending container-fluid">
+          <div class="content_trending">
+              <h3>Gear Up</h3>
+          </div>
+          <div class="img_trending">
+              <img src="./img/gearup.jpeg" alt="gearup">
+          </div>
+        </section>
+      <!--NIKE METCON 9-->
+      <section class="your_support_system container-fluid section">
+        <h2>NIKE METCON 9</h2>
+        <p>Durability and stabitily for your strength training.</p>
+        <button class="btn_shop"><a href="./sanpham.html">Shop</a></button>
+      </section>
+      <!--Don't Miss-->
+      <section class="trending container-fluid">
+        <div class="content_trending">
+            <h3>Don't Miss</h3>
+        </div>
+        <div class="img_trending">
+            <img src="./img/Don'tMiss.jpg" alt="Don'tMiss">
+        </div>
+      </section>
+      <!--NIKE METCON 9-->
+      <section class="your_support_system container-fluid section">
+        <a>Jordan Apparel</a>
+        <h2>MATCHING SETS</h2>
+        <p>Keep the same energy with matching fits for every occasion.</p>
+        <button class="btn_shop"><a href="./sanpham.html">Shop</a></button>
+      </section>
+      <!--The Essentials-->
+      <section class="the_essentials container-fluid">
+        <div class="content_theesentials">
+          <h3>The Essentials</h3>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img class="img1" src="./img/nikenam.jpg" alt="nikenam">
+            <button class="btn"><a href="./sanpham.html">Men's</a></button>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img class="img2" src="./img/nikenu.png" alt="nikenu">
+            <button class="btn"><a href="./sanpham.html">Women's</a></button>
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img class="img3" src="./img/niketre.jpg" alt="niketre">
+            <button><a href="./sanpham.html">Kid's</a></button>
+          </div>
+        </div>
+      </section>
+      <!-- ============END============= -->
+      <section class="end_section container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5>Icons</h5>
+            <a href="#">Air Force 1</a>
+            <a href="#">Huarache</a>
+            <a href="#">Air Max 90</a>
+            <a href="#">Air Max 95</a>
+            <a href="#">Air Max 97</a>
+            <a href="#">Air Max 270</a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5>Shoes</h5>
+            <a href="#">All Shoes</a>
+            <a href="#">Custom Shoes</a>
+            <a href="#">Jordan Shoes</a>
+            <a href="#">Running Shoes</a>
+            <a href="#">Basketball Shoes</a>
+            <a href="#">Football Shoes</a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5>Clothing</h5>
+            <a href="#">All Clothing</a>
+            <a href="#">Modest Wear</a>
+            <a href="#">Hoodies & Pullovers</a>
+            <a href="#">Shirts & Tops</a>
+            <a href="#">Jackets</a>
+            <a href="#">Compression & Nike Pro</a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+            <h5>Kids'</h5>
+            <a href="#">Infant & Toddler Shoes</a>
+            <a href="#">Kids' Shoes</a>
+            <a href="#">Kids' Jordan Shoes</a>
+            <a href="#">Kids' Basketball Shoes</a>
+            <a href="#">Kids' Running Shoes</a>
+            <a href="#">Kids' Clothing</a>
+          </div>
+        </div>
+      </section>
+      <!--FOOTER-->
+      <footer class="container-fluid">
+        <div class="row">
+          <div class="icon col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+            <a href="#">FIND A STORE</a>
+            <a href="#">BECOME A MEMBER</a>
+            <a href="#">Send Us Feedback</a>
+          </div>
+          <div class="icon col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+            <a href="#">GET HELP</a>
+            <a href="#">Order Status</a>
+            <a href="#">Delivery</a>
+            <a href="#">Returns</a>
+            <a href="#">Payment Options</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="icon col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+            <a href="#">ABOUT NIKE</a>
+            <a href="#">News</a>
+            <a href="#">Careers</a>
+            <a href="#">Investors</a>
+            <a href="#">Sustainability</a>
+          </div>
+          <div class="icon4 col-12 col-sm-12 col-md-3 col-lg-6 col-xl-6">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="end_footer">
+          <p>© 2023 Nike, Inc. All Rights Reserved</p>
+        </div>
+      </footer>
+
+      <!--MODAL-->
+      <!-- đăng nhập -->
+      <div class="modal fade" id="dangnhap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--id cũ exampleModal-->
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ĐĂNG NHẬP</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <label>Gmail:</label>          <input type="text" placeholder="Vui lòng nhập...">
+              <br>
+              <br>
+              <label>Mật khẩu:</label> <input type="text" placeholder="Vui lòng nhập...">
+              <br>
+              <input id="dieukhoang" type="checkbox"> <label>Tôi đồng ý với điều khoảng</label>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+              <button type="button" class="btn btn-primary">Đăng Nhập</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- đăng ký -->
+      <div class="modal fade" id="dangky" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"><!--id cũ exampleModal-->
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ĐĂNG KÝ</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <label>Gmail:</label> <input type="text" placeholder="Vui lòng nhập...">
+              <br>
+              <br>
+              <label>Số điện thoại:</label> <input type="text" placeholder="Vui lòng nhập...">
+              <br>
+              <br>
+              <label>Mật khẩu:</label> <input type="text" placeholder="Vui lòng nhập...">
+              <br><br>
+              <label>Nhập lại mật khẩu:</label> <input type="text" placeholder="Vui lòng nhập...">
+              <br>
+              <input id="dieukhoang" type="checkbox"> <label>Tôi đồng ý với điều khoảng</label>
+            </div>
+            <div class="modal-footer">
+              <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+              <button type="button" class="btn btn-primary">Đăng Ký</button>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <!--js owl carousel-->
+      <!-- <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+      </script> -->
+     <!--Thư viện hổ trợ-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--thu viện boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
